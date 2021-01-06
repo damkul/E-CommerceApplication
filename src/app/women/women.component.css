@@ -1,0 +1,22 @@
+.container{
+    margin: auto;
+    width: 90%;
+}
+.products{
+    display: flex;
+}
+.product-outer-box{
+    width: 25%;
+    height: 300px;
+}
+.product-outer-box img{
+    object-fit:cover;
+    height: 300px;
+    width: 250px;
+}
+.product-outer-box{
+    font-family: 'Roboto Slab', serif;
+}
+.product-outer-box a{
+    cursor: pointer;
+}
